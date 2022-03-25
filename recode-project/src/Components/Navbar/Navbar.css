@@ -1,0 +1,137 @@
+nav a {
+  color: #fff;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+nav li {
+  float: left;
+
+  list-style: none;
+
+  margin-left: 20px;
+}
+
+.navbar {
+  padding: auto;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  opacity: 90%;
+  max-height: 100px;
+}
+
+a:hover {
+  cursor: pointer;
+  background: red;
+  background: -webkit-linear-gradient(
+    left,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  background: -o-linear-gradient(
+    right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  background: -moz-linear-gradient(
+    right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  -webkit-background-clip: text;
+}
+
+/* .linke {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding: 10px;
+} */
+
+.icon {
+  width: 100%;
+  display: inline;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.text {
+  background: red;
+  background: -webkit-linear-gradient(
+    left,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  background: -o-linear-gradient(
+    right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  background: -moz-linear-gradient(
+    right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    Violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vw;
+}
+
+.linkfluxo {
+  margin: 5px;
+}
+
+@media (max-width: 1080px) {
+  .navbar {
+    max-height: 500px;
+  }
+  .icon {
+    max-width: 45px;
+    width: 100%;
+  }
+}

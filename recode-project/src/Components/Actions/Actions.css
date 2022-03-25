@@ -1,0 +1,19 @@
+
+
+  .btn-cadastro {
+    text-decoration: none;
+    background-color: rebeccapurple;
+    
+    color: #f2f0d8;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 3px;   
+  }
+  
+ 
+
+  .title-container{
+    border-radius: 50px;
+    text-align: center;
+   
+}

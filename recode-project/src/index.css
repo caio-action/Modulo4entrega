@@ -1,0 +1,13 @@
+body {
+  display: block;
+  background-image: url("../src/Assets/img/backgroundsite.png");
+  background-color: rebeccapurple;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h1 {
+  background-color: rebeccapurple;
+}
+

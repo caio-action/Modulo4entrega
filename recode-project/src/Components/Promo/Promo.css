@@ -1,0 +1,12 @@
+.promo-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.title-container{
+    border-radius: 50px;
+   
+}
+

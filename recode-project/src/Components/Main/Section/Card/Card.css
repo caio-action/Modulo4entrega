@@ -1,0 +1,36 @@
+.aqui {
+  margin-bottom: 50px;
+  
+  bottom: 50px;
+}
+
+.carousel {
+  margin: auto;
+  margin-bottom: 50px;
+
+  min-width: 50%;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+@media (min-width: 360px) {
+  .card.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: initial;
+    display: flex;
+
+    padding: 10px;
+  }
+  .carousel {
+    margin: auto;
+    min-width: 50%;
+
+    box-shadow: #000000;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel {
+    width: 33%;
+  }
+}
